@@ -12,7 +12,7 @@ public class Ejercicio14 {
         System.out.println();
     }
 
-    public static void main (String[]args){
+    public  void ejercicio14 (){
         int[][] matriz = {
                 {1,2,0,3,0,7},
                 {0,0,0,0},
