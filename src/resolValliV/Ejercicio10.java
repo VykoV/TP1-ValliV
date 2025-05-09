@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio10 {
-    public static void main (String[] args){
+    public void ejercicio10 (){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese la contraseña");
