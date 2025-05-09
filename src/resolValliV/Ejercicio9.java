@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio9 {
-    public static void main (String[] args){
+    public void ejercicio9 (){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese una oracion");
