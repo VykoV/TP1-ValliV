@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio8 {
-    public static void main (String [] args){
+    public void ejercicio8 (){
         Scanner scanner = new Scanner (System.in);
 
         System.out.println("¡Bienvenido!\n1. Convertir Celsius a Fahrenheit\n2. Convertir Fahrenheit a Celsius\n3.Salir");
@@ -27,7 +27,7 @@ public class Ejercicio8 {
             System.exit(0);
         }else{
             System.out.println("Numero no corresponde a las opciones, intente de nuevo");
-            main(args);
+            ejercicio8();
         }
     }
 }
