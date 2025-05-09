@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio7 {
-    public static void main (String[] arg){
+    public void ejercicio7 (){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese una opcion \n1.Sumar\n2.Restar\n3.Multiplicar\n4.Dividir\n5.Valor absoluto\n6.Potenciacion\n7.Raiz Cuadrada\n8.Salir");
