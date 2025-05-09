@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio11 {
 
-    public static int fibonacci (int fib ){
+    public int fibonacci (int fib ){
         if (fib == 1 || fib == 2) {
             return 1;
         } else {
@@ -12,7 +12,7 @@ public class Ejercicio11 {
         }
     }
 
-    public static void  main (String[] args){
+    public void  ejercicio11 (){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduzca un numero");
         int numero = scanner.nextInt();
