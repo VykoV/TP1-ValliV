@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio13 {
-    public static void main (String[] args) {
+    public void ejercicio13 () {
         Scanner scanner = new Scanner(System.in);
         String[] alumno = new String[3];
         double[][] nota = new double[3][5];
