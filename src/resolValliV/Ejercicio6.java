@@ -3,7 +3,7 @@ package resolValliV;
 import java.util.Scanner;
 
 public class Ejercicio6 {
-    public static void main (String[] args){
+    public void ejercicio6 (){
         Scanner scanner = new Scanner(System.in);
 
         double random = Math.round(Math.random() * 100);
